@@ -1,0 +1,1 @@
+(function(){const chips=document.querySelectorAll('.chip'); chips.forEach((c,i)=>c.addEventListener('mouseenter',()=>{c.style.transform=`translateY(-${(i+1)*2}px)`}); chips.forEach((c,i)=>c.addEventListener('mouseleave',()=>{c.style.transform=`translateY(0)`}));})();
